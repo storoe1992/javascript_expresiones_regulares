@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Centro médico</h1>
+    </header>
+    <section>
+        <div class="form_container">
+        <form class="form" onsubmit="onRegister(event)">
+            <input id="rut" class="form__element" placeholder="Rut sin puntos ni guión"/>
+            <input id="name" class="form__element" placeholder="Nombre"/>
+            <input id="lastname" class=" form__element" placeholder="Apellidos"/>
+            <input id="age" class=" form__element" placeholder="Edad"/>
+            <input id="email" class=" form__element" type="email" placeholder="Correo"/>
+            <select id="especialidad" class=" form__element">
+                <option value="medico">Clínico</option>
+                <option value="ingeniero">Ortopédico</option>
+            </select>
+            <input id="date" class=" form__element" placeholder="Fecha"/>
+            <select id="hour" class=" form__element">
+                <option value="6">06:00</option>
+                <option value="18">18:00</option>
+            </select>
+            <input id="buttonregister" class=" form__element" value="Reservar" type="submit" />
+        </form>
+    </div>
+    <div class="message">
+        <p id="messagetext"></p>
+    </div>
+    </section>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+    background-color: #729e2e;
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form__element{
+    height: 35px;
+    margin: 5px 0;
+}
+
+.form_container{
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+}
+
+#messagetext{
+    color: white;
+}
+
+
+
+
+
